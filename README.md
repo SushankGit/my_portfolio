@@ -30,8 +30,8 @@ You can also launch a dedicated development server with a single click:
 The administrative console allows managing portfolio projects, monitoring inbound contact inquiries, and viewing system telemetry.
 
 - **URL:** `admin/login.html` (or `http://localhost/PROJECTS/Portfolio%20Website/admin/login.html`)
-- **Default Username:** `sushank`
-- **Default Password:** `admin123`
+- **Default Username:** `**********`
+- **Default Password:** `***`
 
 ### Admin Features
 - **Dashboard Overview:** KPI cards for Projects, Experiences, Certificates, and Messages with quick status badges.
