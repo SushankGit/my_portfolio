@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Portfolio | Sushank Shrestha</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/profile.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="brand">
+      <div class="brand-monogram">SS</div>
+      <div class="brand-text">Sushank<span>.Shrestha</span></div>
+    </a>
+
+    <button class="mobile-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="admin/login.html" class="btn-admin-link">Admin Portal &rarr;</a>
+    </div>
+  </header>
+
+  <main style="padding-top: calc(var(--nav-height) + 30px); max-width: 1240px; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding-bottom: 80px;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <a href="index.html" style="color: var(--primary); font-size: 0.9rem; font-weight: 600;">&larr; Back to Home</a>
+      <h1 style="font-size: 2.8rem; font-weight: 800; margin-top: 12px; margin-bottom: 12px;">All Systems &amp; Projects</h1>
+      <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+        Production enterprise applications, warehouse stock ledgers, BI dashboards, and automation routines.
+      </p>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Systems</button>
+      <button class="filter-btn" data-filter="Enterprise MIS">Enterprise MIS</button>
+      <button class="filter-btn" data-filter="Dashboard & BI">Dashboard &amp; BI</button>
+      <button class="filter-btn" data-filter="Inventory & Stock">Inventory &amp; Stock</button>
+      <button class="filter-btn" data-filter="Automation & ETL">Automation &amp; ETL</button>
+      <button class="filter-btn" data-filter="Web Apps">Web Apps</button>
+    </div>
+
+    <!-- Dynamic Projects Container -->
+    <div id="projects-container"></div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <strong>Sushank Shrestha</strong> &bull; &amp; MIS Officer
+        <p style="font-size: 0.8rem; margin-top: 4px; color: var(--text-dim);">&copy; 2026 All rights reserved.</p>
+      </div>
+      <!-- <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin/login.html">Admin</a>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>

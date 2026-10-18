@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Sushank Shrestha | MIS Officer</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/profile.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="brand">
+      <div class="brand-monogram">SS</div>
+      <div class="brand-text">Sushank<span>.dev</span></div>
+    </a>
+
+    <button class="mobile-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="admin/login.html" class="btn-admin-link">Admin Portal &rarr;</a>
+    </div>
+  </header>
+
+  <main style="padding-top: calc(var(--nav-height) + 30px); max-width: 1100px; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding-bottom: 80px;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <a href="index.html" style="color: var(--primary); font-size: 0.9rem; font-weight: 600;">&larr; Back to Home</a>
+      <h1 style="font-size: 2.8rem; font-weight: 800; margin-top: 12px; margin-bottom: 12px;">Get In Touch</h1>
+      <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+        Have questions about MIS systems, database engineering, or custom software development?
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info-card">
+        <h3>Contact Details</h3>
+        <p>
+          I am available for technical consulting, database engineering, and enterprise systems implementation.
+        </p>
+
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-details">
+            <h4>Location</h4>
+            <p id="contact-location">Kathmandu, Nepal</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">🏢</div>
+          <div class="info-details">
+            <h4>Current Organization</h4>
+            <p id="contact-office">Yeti Brewery Limited</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div class="info-details">
+            <h4>Email</h4>
+            <a href="mailto:sushank.shrestha@example.com" id="contact-email">sushank.shrestha@example.com</a>
+          </div>
+        </div>
+
+        <div class="info-item" id="contact-resume-item">
+          <div class="info-icon">📄</div>
+          <div class="info-details">
+            <h4>Curriculum Vitae</h4>
+            <a href="assets/resume.pdf" id="contact-resume-link" download="Sushank_Shrestha_Resume.pdf" style="color: var(--primary);">
+              Download CV (PDF) &darr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <h3>Send a Direct Message</h3>
+        <div id="contactToast" class="toast-alert"></div>
+
+        <form action="Backend/contact.php" method="POST" class="contact-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name *</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Jane Smith" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Your Email Address *</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="jane@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Inquiry Subject" value="Project Collaboration">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message *</label>
+            <textarea id="message" name="message" class="form-control" placeholder="Describe your inquiry, project scope, or questions..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Send Message &rarr;
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <strong>Sushank Shrestha</strong> &bull; MIS Officer
+        <p style="font-size: 0.8rem; margin-top: 4px; color: var(--text-dim);">&copy; 2026 All rights reserved.</p>
+      </div>
+      <!-- <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="admin/login.html">Admin</a>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="JS/script.js?v=2.2"></script>
+</body>
+</html>

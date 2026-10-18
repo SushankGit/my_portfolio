@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Sushank Shrestha</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/profile.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="brand">
+      <div class="brand-monogram">SS</div>
+      <div class="brand-text">Sushank<span>.dev</span></div>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="admin/login.html" class="btn-admin-link">Admin Portal &rarr;</a>
+    </div>
+  </header>
+
+  <main style="padding-top: calc(var(--nav-height) + 40px); max-width: 1000px; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding-bottom: 80px;">
+    <div style="margin-bottom: 40px;">
+      <a href="index.html" style="color: var(--primary); font-size: 0.9rem; font-weight: 600;">&larr; Back to Home</a>
+      <h1 style="font-size: 2.8rem; font-weight: 800; margin-top: 12px; margin-bottom: 12px;">About Sushank Shrestha</h1>
+      <p id="about-job-title" style="font-size: 1.2rem; color: var(--text-muted);">
+        MIS Officer at Yeti Brewery Limited.
+      </p>
+    </div>
+
+    <div class="about-grid" style="margin-bottom: 60px;">
+      <div>
+        <p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+           I oversee the design and scaling of information systems that directly support industrial and manufacturing operations. At Yeti Brewery, I lead the technical development of platforms such as Sales MIS, Secondary Sales Analytics, and Inventory Reconciliation Systems. These solutions are embedded in daily workflows—empowering sales representatives, plant managers, auditors, and executives to manage millions of rupees in transactions and hundreds of thousands of production crates with accuracy and efficiency.
+        </p>
+        <p style="color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 20px;">
+          At Yeti Brewery, <strong>my role</strong> is defined by a commitment to optimization, zero data loss, and seamless user experiences. By combining robust relational database design with automated ETL pipelines, I’ve eliminated thousands of hours of manual reporting, ensuring that decision-makers always have timely, reliable insights.
+        </p>
+        <p style="color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 30px;">
+          I approach system engineering not just as a technical exercise but as a discipline that bridges business strategy and IT execution. My academic and professional journey has taught me to view MIS as the nervous system of an enterprise—where every dataset, report, and dashboard contributes to operational clarity and strategic foresight.
+        </p>
+
+        <div style="display: flex; gap: 14px;">
+          <a href="assets/resume.pdf" id="about-resume-link" class="btn btn-primary" download>📄 Download Resume (PDF)</a>
+          <a href="contact.html" class="btn btn-outline">Send a Message</a>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <img src="assets/profile.svg" alt="Profile" style="width: 280px; max-width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+      </div>
+    </div>
+
+    <!-- Career Milestones -->
+    <div style="margin-bottom: 60px;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
+        Core Competencies &amp; Impact
+      </h2>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon">🏭</div>
+          <h3>Manufacturing Systems</h3>
+          <p>End-to-end brewery operational management, production batch tracking, bottling line metrics, and capacity planning.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">⚡</div>
+          <h3>VBA &amp; Batch Automation</h3>
+          <p>Custom ADODB scripting, scheduled automated Excel ingestion, sanitized ERP transformations, and database syncs.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">💾</div>
+          <h3>Relational Schemas</h3>
+          <p>Complex query design, composite indexing, foreign key constraints, transaction locks, and query performance tuning.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">📊</div>
+          <h3>Executive Intelligence</h3>
+          <p>Tailored dashboards translating granular sales ledgers into high-level KPI visual summaries for executive stakeholders.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certifications & Honors -->
+    <div id="about-certificates-section" style="margin-bottom: 60px;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
+        Certificates &amp; Achievements
+      </h2>
+      <div id="certificates-container" class="certificates-grid"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <strong>Sushank Shrestha</strong> &bull; MIS Officer
+        <p style="font-size: 0.8rem; margin-top: 4px; color: var(--text-dim);">&copy; 2026 All rights reserved.</p>
+      </div>
+      <!-- <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin/login.html">Admin</a>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="JS/script.js?v=2.2"></script>
+</body>
+</html>

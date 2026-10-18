@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushank Shrestha | MIS Officer</title>
+  <meta name="description" content="Official developer portfolio of Sushank Shrestha, MIS Officer at Yeti Brewery. Specializing in enterprise MIS, workflow automation, MySQL design, and full-stack web applications.">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/profile.svg">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <a href="#home" class="brand">
+      <div class="brand-monogram">SS</div>
+      <div class="brand-text">Sushank<span>.Shrestha</span></div>
+    </a>
+
+    <button class="mobile-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="admin/login.html" class="btn-admin-link">Admin Portal &rarr;</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="badge badge-live" style="margin-bottom: 16px;">
+          <span class="pulse-dot"></span>
+          <span id="hero-job-badge">MIS Officer &bull; Yeti Brewery Limited</span>
+        </div>
+        <h1>
+          Building Resilient <br>
+          <span class="gradient-text">Enterprise Data Systems</span>
+        </h1>
+        <div class="typewriter-container">
+          <span>&gt;&nbsp;</span>
+          <span id="typewriter-text"></span>
+          <span class="typewriter-cursor"></span>
+        </div>
+        <p class="hero-bio">
+          I design and build large-scale Management Information Systems (MIS), high-throughput MySQL databases, and automated ETL workflows that turn complex brewery operations into streamlined executive intelligence.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Explore Projects &darr;</a>
+          <a href="assets/resume.pdf" id="hero-resume-link" class="btn btn-outline" download="Sushank_Shrestha_Resume.pdf">
+            📄 Download CV
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>1.5+</h3>
+            <p>Years Experience</p>
+          </div>
+          <!-- <div class="stat-item">
+            <h3>15+</h3>
+            <p>Enterprise Portals</p>
+          </div> -->
+          <div class="stat-item">
+            <h3>10M+</h3>
+            <p>Data Records Synced</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-wrapper">
+          <img src="assets/profile.svg" alt="Sushank Shrestha">
+          <div class="floating-pill pill-1">
+            <span style="color: var(--primary); font-size: 16px;">⚡</span>
+            <!-- <span>MySQL &bull; PHP 8 &bull; Automation</span> -->
+          </div>
+          <!-- <div class="floating-pill pill-2">
+            <span style="color: var(--accent); font-size: 16px;">✓</span>
+            <span>99.9% Production Uptime</span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-tag">Background &amp; Philosophy</span>
+      <h2 class="section-title">Engineering Enterprise Intelligence</h2>
+      <p class="section-desc">
+        Bridging the gap between industrial manufacturing workflows, raw operational databases, and executive decision-making.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          As the <strong>MIS Officer at Yeti Brewery</strong>, I specialize in engineering bespoke digital platforms that drive business critical operations—from distribution sales tracking to Finished Goods batch reconciliation.
+        </p>
+        <p>
+          I architech high-efficiency database schemas, create scheduled ETL pipelines utilizing VBA, PowerShell, and SQL stored procedures, and design intuitive dashboards.
+        </p>
+        <p>
+          My focus is delivering high-performance, fault-tolerant solutions that eliminate manual friction, reduce processing overhead by over 80%, and give management instantaneous clarity over production and sales.
+        </p>
+        <div style="margin-top: 28px;">
+          <a href="about.html" class="btn btn-outline" style="font-size: 0.9rem;">Read Full Biography &rarr;</a>
+        </div>
+      </div>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon">📊</div>
+          <h3>Enterprise MIS</h3>
+          <p>End-to-end sales distribution, dealer order flows, and multi-tier secondary sales tracking.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">🗄️</div>
+          <h3>Database Engineering</h3>
+          <p>Relational modeling, indexing, query optimization, and transaction safety in MySQL &amp; MariaDB.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">⚙️</div>
+          <h3>Workflow Automation</h3>
+          <p>VBA engines and automated schedulers processing high-volume transactional spreadsheets.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">📈</div>
+          <h3>Executive BI Dashboards</h3>
+          <p>Real-time visual telemetry, production yield monitoring, and forecasting dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-tag">Core Competencies</span>
+      <h2 class="section-title">Technical Skills &amp; Stack</h2>
+      <p class="section-desc">
+        A pragmatic combination of enterprise database design, modern web development, and workflow automation tooling.
+      </p>
+    </div>
+
+    <div class="skills-container">
+      <!-- Backend & Databases -->
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <span style="font-size: 1.5rem;">💾</span>
+          <h3>Backend &amp; Databases</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">PHP 8+</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">MariaDB</span>
+          <span class="skill-tag">Stored Procedures</span>
+          <span class="skill-tag">Query Optimization</span>
+          <span class="skill-tag">Database Indexing</span>
+          <span class="skill-tag">RESTful APIs</span>
+          <span class="skill-tag">Session Auth</span>
+        </div>
+      </div>
+
+      <!-- Automation & ETL -->
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <span style="font-size: 1.5rem;">⚡</span>
+          <h3>Automation &amp; ETL</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Excel VBA</span>
+          <span class="skill-tag">Macro Automation</span>
+          <span class="skill-tag">Data Sanitization</span>
+          <span class="skill-tag">ETL Pipelines</span>
+          <span class="skill-tag">PowerShell Scripting</span>
+          <span class="skill-tag">Windows Task Scheduler</span>
+          <span class="skill-tag">Batch Ingestion</span>
+        </div>
+      </div>
+
+      <!-- Frontend & UI -->
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <span style="font-size: 1.5rem;">🎨</span>
+          <h3>Frontend &amp; UI</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">JavaScript (ES6+)</span>
+          <span class="skill-tag">HTML5 &amp; CSS3</span>
+          <span class="skill-tag">CSS Flexbox / Grid</span>
+          <span class="skill-tag">Responsive Layouts</span>
+          <span class="skill-tag">AJAX / Fetch API</span>
+          <span class="skill-tag">Chart.js Visualization</span>
+          <span class="skill-tag">DOM Manipulation</span>
+        </div>
+      </div>
+
+      <!-- Enterprise Infrastructure -->
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <span style="font-size: 1.5rem;">🛠️</span>
+          <h3>Systems &amp; DevOps</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Apache HTTP Server</span>
+          <span class="skill-tag">XAMPP Environment</span>
+          <span class="skill-tag">Git Version Control</span>
+          <span class="skill-tag">ERP Data Integration</span>
+          <span class="skill-tag">Inventory Auditing</span>
+          <span class="skill-tag">Access Control</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="section-tag">Featured Engineering Work</span>
+      <h2 class="section-title">Production Systems &amp; Projects</h2>
+      <p class="section-desc">
+        A selection of enterprise systems, database architectures, and automation portals developed for Yeti Brewery.
+      </p>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Systems</button>
+      <button class="filter-btn" data-filter="Enterprise MIS">Enterprise MIS</button>
+      <button class="filter-btn" data-filter="Dashboard & BI">Dashboard &amp; BI</button>
+      <button class="filter-btn" data-filter="Inventory & Stock">Inventory &amp; Stock</button>
+      <button class="filter-btn" data-filter="Automation & ETL">Automation &amp; ETL</button>
+      <button class="filter-btn" data-filter="Web Apps">Web Apps</button>
+    </div>
+
+    <!-- Projects Grid Container (loaded dynamically via JS & API) -->
+    <div id="projects-container"></div>
+  </section>
+
+  <!-- Experience / Enterprise Impact Section -->
+  <section id="experience">
+    <div class="section-header">
+      <span class="section-tag">Career Milestones</span>
+      <h2 class="section-title">Enterprise Experience</h2>
+      <p class="section-desc">
+        Demonstrated leadership delivering scalable technical infrastructure and systems optimization.
+      </p>
+    </div>
+
+    <div id="experience-container" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px;">
+      <div class="pillar-card" style="border-left: 4px solid var(--primary);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <h3 style="font-size: 1.25rem;">MIS Officer</h3>
+          <span style="color: var(--primary); font-size: 0.9rem; font-weight: 600;">2021 &ndash; Present</span>
+        </div>
+        <div style="color: var(--text-dim); font-size: 0.95rem; margin-bottom: 12px; font-weight: 500;">
+          Yeti Brewery Limited &bull; Industry Leading Beverage Manufacturing
+        </div>
+        <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+          Managing system development and software lifecycle for internal data platforms across brewery departments:
+        </p>
+        <ul style="color: var(--text-muted); padding-left: 20px; line-height: 1.7; font-size: 0.95rem;">
+          <li>Engineered the <strong>Sales MIS</strong> platform unifying primary distributor despatches, sales targets, and fiscal reporting.</li>
+          <li>Engineered <strong>Secondary Sales Tracking</strong> to monitor distributor-to-retailer transactions and inventory movement.</li>
+          <li>Constructed real-time <strong>Stock MIS (IMS)</strong> covering packaging materials, barley malt, hops, and automated reorder triggers.</li>
+          <li>Implemented scheduled <strong>VBA ETL extraction pipelines</strong> eliminating hundreds of hours of manual compilation each month.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates & Achievements Section -->
+  <section id="certificates">
+    <div class="section-header">
+      <span class="section-tag">Accreditations &amp; Honors</span>
+      <h2 class="section-title">Certificates &amp; Achievements</h2>
+      <p class="section-desc">
+        Professional credentials, verified certifications, and organizational excellence awards.
+      </p>
+    </div>
+
+    <div id="certificates-container" class="certificates-grid"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Contact &amp; Collaboration</h2>
+      <p class="section-desc">
+        Interested in discussing MIS optimization, workflow automation, or database systems? Send a direct message below.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info-card">
+        <h3>Let's Connect</h3>
+        <p id="connect-bio">
+          I am always open to exploring technical discussions, workflow automation consultations, and database engineering challenges.
+        </p>
+
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-details">
+            <h4>Location</h4>
+            <p id="connect-location">Kathmandu, Nepal</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">🏢</div>
+          <div class="info-details">
+            <h4>Current Office</h4>
+            <p id="connect-office">Yeti Brewery Limited</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div class="info-details">
+            <h4>Email Inquiry</h4>
+            <a href="mailto:sushank.shrestha@example.com" id="connect-email">sushank.shrestha@example.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">🔒</div>
+          <div class="info-details">
+            <h4>Admin Access</h4>
+            <a href="admin/login.html" style="color: var(--primary);">Open Admin Console &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <h3>Send a Message</h3>
+        <div id="contactToast" class="toast-alert"></div>
+
+        <form action="Backend/contact.php" method="POST" class="contact-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name *</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Sushank Shrestha" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Your Email Address *</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="sushank.shrestha@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Project Inquiry / Consultation" value="Enterprise Consultation">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message *</label>
+            <textarea id="message" name="message" class="form-control" placeholder="How can I help you with your software or MIS systems?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Send Message &rarr;
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <strong>Sushank Shrestha</strong> &bull; MIS Officer
+        <p style="font-size: 0.8rem; margin-top: 4px; color: var(--text-dim);">
+          &copy; 2026 All rights reserved. Designed &amp; Developed by Sushank Shrestha.
+        </p>
+      </div>
+
+      <!-- <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="admin/login.html">Admin</a>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="JS/script.js?v=2.2"></script>
+</body>
+</html>
